@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 768px) {
+  .custom-card {
+    width: 150px;
+  }
+}
+
+.home {
+  width: 100%;
+  background-color: #000000;
+  opacity: 1;
+  /* background-image: radial-gradient(#c5c5d1 2px, transparent 2px), radial-gradient(#c5c5d1 2px, #060712 2px); */
+  background-size: 80px 80px;
+  background: url("/public/background.svg");
+  background-position: 0 0, 40px 40px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+}
